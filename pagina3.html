@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Anécdotas - Sitio Beagle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sitio Beagle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Pagina 1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Pagina 2</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pagina3.html">Pagina 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="mb-4">Anécdotas</h1>
+
+        <div class="alert alert-warning" role="alert">
+            <i class="bi bi-exclamation-triangle-fill"></i>
+            <strong>Advertencia:</strong> estas historias pueden causar mucha ternura (o risa).
+        </div>
+
+        <p><strong>La vez que...</strong> Primera anécdota: estabamos el la quinta de mi tio, yo me meti a la alberca
+        y a mi mascota no le gusta el agua, pero al querer estar conmigo decidio lanzarze al agua. Acto seguido nado 
+        asustada hacia donde estaba y se me subio encima para que la sacara del agua.</p>
+        <p><strong>El día que...</strong> Segunda anécdota: cuando recien llego, era una bolita de pelos negro con blanco,
+        en ese entonces tenia 2 meses y daba miedo quedarse sola, yo me quedaba con ella hasta que se durmiera y 
+        despues podia irme a dormir. </p>
+        <p><strong>Nunca olvidaré...</strong> Tercera anécdota: las veces que jugamos en el campo de americano, a ella
+        le encantaba correr en ese campo y explorar sus alrededores. Actualmente no corre tanto y ya no se puede ingresar 
+        a la cancha, pero aun le gusta caminar por ahi.</p>
+
+        <div id="galeria" class="carousel slide my-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="imagenes/alberca.jpg" class="d-block mx-auto img-fluid rounded" style="max-height: 450px;" alt="Anécdota 1">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Anécdota 1</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/rey.jpg" class="d-block mx-auto img-fluid rounded" style="max-height: 450px;" alt="Anécdota 2">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Anécdota 2</h5>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="imagenes/campo.jpeg" class="d-block mx-auto img-fluid rounded" style="max-height: 450px;" alt="Anécdota 3">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                        <h5>Anécdota 3</h5>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#galeria" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galeria" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

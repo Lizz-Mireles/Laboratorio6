@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cuidados y alimentación - Sitio Beagle</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sitio Beagle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Pagina 1</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pagina2.html">Pagina 2</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Pagina 3</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <h1 class="mb-4">Cuidados</h1>
+
+        <p>Conforme su peso, marca y tipo de croquetas que consume, al dia le doy de 150 a 190 gramos.</p>
+        <p>Actualmente, como es una perrita considerada de la tercera edad, 
+            le doy media pastilla de suplemento para sus huesos (CartiPet's C10). </p>
+        <p>Como no puedo estar todo el dia en casa, suelo darle juguetes y botellas ya que le gusta 
+            jugar con ellas, ademas, en mis dias libres salimos a pasear.
+        </p>
+
+        <div class="row my-4">
+            <div class="col-md-4 mb-3">
+                <img src="imagenes/OIP.webp" class="img-fluid rounded" alt="Comida de mi mascota">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="imagenes/paseo.jpeg" class="img-fluid rounded" alt="Paseo de mi mascota">
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="imagenes/veterinario.jpeg" class="img-fluid rounded" alt="Mi mascota esperando en el veterinario">
+            </div>
+        </div>
+
+        <h2 class="mt-5">Su rutina diaria</h2>
+        <ul class="list-group mb-5">
+            <li class="list-group-item"><i class="bi bi-sunrise"></i> 4:30 am: desayuno</li>
+            <li class="list-group-item"><i class="bi bi-sun"></i> 7:00 am: toma el sol</li>
+            <li class="list-group-item"><i class="bi bi-moon"></i> 9:00 pm: cena</li>
+            <li class="list-group-item"><i class="bi bi-house-heart"></i> 10:00 pm: a dormir</li>
+        </ul>
+
+        <h2>Consejos de cuidado</h2>
+        <div class="accordion" id="cuidados">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1">
+                        Alimentación
+                    </button>
+                </h2>
+                <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#cuidados">
+                    <div class="accordion-body">Actualmente esta comiendo la croqueta Nupec Weight control. Adicionalmente
+                        le suelo dar algunas veces res, pollo o pescado en pequeñas cantidades.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2">
+                        Salud y veterinario
+                    </button>
+                </h2>
+                <div id="c2" class="accordion-collapse collapse" data-bs-parent="#cuidados">
+                    <div class="accordion-body">Ella va al veterinario cada 3 meses para sus desparacitaciones 
+                        y cada año para sus 3 vacunas correspondiatentes, estas vacunas son: Rabigen Mono, 
+                        Canigen MHA2 PPi/L y Bronchicine CAe.</div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c3">
+                        Higiene y baño
+                    </button>
+                </h2>
+                <div id="c3" class="accordion-collapse collapse" data-bs-parent="#cuidados">
+                    <div class="accordion-body">Al ser una raza de orejas largas hay que tener especial cuidado en esta zona,
+                        cada semana le reviso las orejas comprobando su estado y ver si se limpian o no, ya que mucha limpieza tambien
+                        puede irritar la zona; sus baños son 1 o dos veces al año y sus garritas se las corto una vez cada 5 meses.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
